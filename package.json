@@ -50,5 +50,11 @@
   },
   "devDependencies": {
     "@types/peerjs": "^0.0.30"
-  }
+  },
+  "audit-level": "high",
+  "exceptions": [
+    "nth-check",
+    "postcss",
+    "webpack-dev-server"
+  ]
 }
