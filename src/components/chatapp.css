@@ -3,13 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     height: 100vh;
     background-color: #f1f1f1;
 }
 
 .chatapp-content {
     height: 80%;
-    width: 60%;
+    width: 90%;
     background-color: #618a33;
     border: 25px solid #24b330;
     border-radius: 8px;
@@ -17,8 +18,6 @@
     display: flex;
     flex-direction: column;
 }
-
-
 
 .chatapp-header {
     display: flex;
@@ -137,9 +136,9 @@
     margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .chatapp-content {
-        width: 100%;
+        width: 95%;
         height: 90%;
     }
 }
@@ -147,7 +146,7 @@
 @media (max-width: 480px) {
     .chatapp-content {
         width: 100%;
-        height: 90%;
+        height: 95%;
         border: 15px solid #24b330;
     }
 }
